@@ -1,0 +1,162 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&family=Raleway:wght@400;900&display=swap');
+
+#title {
+  font-family: 'Raleway', sans-serif;
+  font-size: 70px;
+  letter-spacing: 10px;
+  color: snow;
+  padding-bottom: 10px;
+}
+
+.acontainer {
+  display: flex;
+  justify-content: center;
+  background-color: #ee6f57;
+  /* background-image: url("https://cdn.glitch.com/78a8ae54-037d-48df-8d8e-3a99aef55d65%2Fthumbnails%2Fpawel-czerwinski-ItcfEC4dIvw-unsplash.jpg?1598717383965"); */
+  /* background-repeat: no-repeat; */
+  /* background-size: 1600px 1100px; */
+}
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #145374;
+  font-family: 'Raleway', sans-serif;
+  font-size: 25px;
+}
+
+li {
+  float: left;
+  border-right: 3px solid #bbb;
+}
+
+li a {
+  display: block;
+  color: snow;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+li a:hover {
+  background-color: #ffc93c;
+}
+
+body {
+  background-color: #a2d5f2;
+  margin:0;
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&family=Raleway:wght@400;900&display=swap');
+
+.header {
+  font-family: 'Raleway', sans-serif;
+  text-align: center;
+  font-size: 40px; 
+  color: #00334e;
+}
+
+.paragraph {
+  font-family: 'Open Sans', sans-serif;
+  text-align: center;
+  font-size: 25px; 
+  margin: 40px;
+  color: #00334e;
+}
+
+.list {
+  font-family: 'Open Sans', sans-serif;
+  text-align: center;
+  font-size: 25px; 
+  margin: 40px;
+}
+
+.meetthecreatorbody{
+  display: flex;
+  align-content: center;
+}
+
+
+
+.rina {
+  padding-left: 60px;
+  padding-bottom: 60px;
+}
+
+.welcome{
+  background-color: #ffc93c;
+  padding: 100px;
+}
+
+.missionstatement{
+  background-color: #40a8c4;
+  padding: 100px;
+}
+
+.meetthecreator {
+  padding: 100px;
+}
+.meetthecreatorbody {
+  background-color: #a2d5f2;
+  display: flex;
+  Justify-content: center;
+  color: #00334e;
+  padding-top: 60px;
+}
+
+.introtext {
+  font-size: 25px; 
+  font-family: 'Open Sans', sans-serif;
+  padding-left: 100px;
+  padding-right: 60px;
+  
+}
+
+.ccontainer {
+   color: #00334e;
+}
+
+.availability {
+  /* padding-top: 100px;
+  padding-bottom: 50px;
+  padding-left: 50px;
+  padding-right: 50px; */
+  padding: 100px;
+  background-color: #ffc93c;
+}
+
+.requirements {
+  /* padding-top: 50px;
+  padding-bottom: 100px;
+  padding-left: 50px;
+  padding-right: 50px; */
+  padding: 100px;
+}
+
+#usrform {
+  font-size: 25px; 
+  font-family: 'Open Sans', sans-serif;
+  line-height: 2;
+}
+
+button {
+  align-content: center;
+  font-size: 25px; 
+  font-family: 'Open Sans', sans-serif;
+  color: #00334e;
+}
+
+.bold{
+  font-weight: bold;
+}
+
+.q {
+  padding-bottom: 40px;
+
+}
+
+.button{
+    text-align:center;
+}

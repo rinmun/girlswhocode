@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width">
+    <title>repl.it</title>
+    <link href="style.css" rel="stylesheet" type="text/css" />
+  </head>
+  <body>
+    <script src="script.js"></script>
+
+  
+  <div class= "acontainer">
+    <h1 id= "title">MentorMe.</h1>
+  </div>
+    
+  <div class = "bcontainer">
+    <div class= "nav">
+      <ul>
+        <li> <a href = "index.html"> Home </a></li>
+        <li> <a href= "elegibility.html"> Eligibility </a> </li>
+        <li> <a href= "apply.html"> Apply </a> </li>
+        <li> <a href= "findamentor.html"> Find a Mentor </a> 
+      </ul>
+    </div>
+  </div>
+
+  <div class= "ccontainer">
+
+    <div class= "availability">
+      <h1 class= "header"> Before you apply </h1>
+        <p class= "paragraph"> Please read the eligibility requirements before applying. Your application will get processed regardless of whether or not you read the criteria, but if it does not follow guidelines it will likely be rejected </p>
+    </div>
+
+    <div class = "requirements">
+      <h1 class= "header"> Application </h1>
+        <p class= "paragraph"> Fill out the form below </p>
+
+      <form id="usrform">
+        
+<div class = "q">
+        <label> First Name: </label>
+          <input type = "text"> <br>
+        <label> Last Name: </label>
+          <input type = "text"> <br>
+</div>
+<div class = "q">
+        <label> Email: </label>
+          <input type = "email"> <br>
+        <label> Phone Number </label>
+          <input type = "tel"> <br>
+        <label> Addresss </label>
+        <input type = "text"> <br>
+</div>
+
+<div class = "q">
+        <label> Birthdate <label>
+          <input type = "date"> <br>
+</div>
+      
+      <div class = "q">
+        <label> Is your family above 70k? </label> <br>
+          <label><i> yes </label> 
+            <input type = "radio">
+          <label> no</i> </label> 
+            <input type = "radio"> <br>
+        <label> If yes, please upload a document of proof </label><br>
+          <input type = "image"> <br>
+      </div>
+
+      <div class = "q">
+        <label> Please upload your latest transcript </label> <br>
+          <input type = "image"> <br>
+      </div>
+
+      <div class = "q">
+        <label> If there is anything you would like us to know, please type it here </label><br>
+          <input type="text"><br>
+      </div>
+
+      <div class = "q">
+        <label> Please input your personal statement (Max. 250 words) </label><br>
+          <input type = "text"> <br>
+      </div>
+
+      <p class= "paragraph"> <i>Please double-check everything before submission</i> </p>
+      </form>
+ 
+<div class = "button">
+ <button onclick="functionApply()">Submit</button>
+    <p id="applymessage" class = "paragraph"></p>
+</div>
+
+    </div>
+  </body>
+</html>
