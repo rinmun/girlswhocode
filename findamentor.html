@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width">
+    <title>repl.it</title>
+    <link href="style.css" rel="stylesheet" type="text/css" />
+  </head>
+  <body>
+    <script src="script.js"></script>
+
+  
+  <div class= "acontainer">
+    <h1 id= "title">MentorMe.</h1>
+  </div>
+    
+  <div class = "bcontainer">
+    <div class= "nav">
+      <ul>
+        <li> <a href = "index.html"> Home </a></li>
+        <li> <a href= "elegibility.html"> Eligibility </a> </li>
+        <li> <a href= "apply.html"> Apply </a> </li>
+        <li> <a href= "findamentor.html"> Find a Mentor </a> 
+      </ul>
+    </div>
+  </div>
+
+  <div class= "ccontainer">
+
+    <div class= "availability">
+      <h1 class= "header"> Congratulations on being accepted! </h1>
+        <p class= "paragraph"> Your answers will help is place you with someone who is best for you</p>
+    </div>
+
+    <div class = "requirements">
+      <h1 class= "header"> Profile </h1>
+        <p class= "paragraph"> Fill out the form below </p>
+
+      <form id="usrform">
+        <div class="q">
+          <label class= "bold"> Confirmation code: </label>
+          <input type= "number"><br>
+        </div>
+
+        <div class = "q">
+        <label class= "bold"> What majors are you interested in? (you may choose more than one) </label> <br>
+          <label> Buisness and Management </label>
+            <input type = "radio"> <br>
+          <label> Anthropology and Sociology </label>
+            <input type = "radio"> <br>
+          <label> Chemistry and Biology </label>
+            <input type = "radio"> <br>
+          <label> Engineering and Computer Science </label>
+            <input type = "radio"> <br>
+          <label> English and History </label>
+            <input type = "radio"> <br>
+          <label> Art and Architecture </label>
+            <input type = "radio"> <br>
+          <label> Other </label>
+            <input type = "text"> <br>
+        </div>
+
+        <div class = "q">
+        <label class="bold"> What are your extracurriculars/hobbies?</label> <br>
+          <label> Sports </label>
+            <input type = "radio"> <br>
+          <label> Music </label>
+            <input type = "radio"> <br>
+          <label> Art </label>
+            <input type = "radio"> <br>
+          <label> Leadership </label>
+            <input type = "radio"> <br>
+          <label> Volunteer </label>
+            <input type = "radio"> <br>
+          <label> Work </label>
+            <input type = "radio"> <br>
+          <label> Other </label>
+            <input type = "text"> <br>
+        </div>
+
+        <div class = "q">
+        <label class="bold"> Which gender would you like to meet with?</label> <br>
+            <label> Male </label>
+              <input type = "radio"> <br>
+            <label> Female </label>
+              <input type = "radio"> <br>
+            <label> It doesn't matter </label>
+              <input type = "text"> <br>
+        </div>
+
+        <div class = "q">
+        <label class="bold"> Is there a specific ethnicity that you would like to meet with?</label> <br>
+          <label> Yes </label>
+            <input type = "radio"> <br>
+          <label> No </label>
+            <input type = "radio"> <br>
+        <label> If yes, click one that applies </label> <br>
+          <label> Caucasian </label>
+            <input type = "radio"> <br>
+          <label> African-American </label>
+            <input type = "radio"> <br>
+          <label> Hispanic </label>
+            <input type = "radio"> <br>
+          <label> Asian </label>
+            <input type = "radio"> <br>
+          <label> Native American </label>
+            <input type = "radio"> <br>
+          <label> Other </label>
+            <input type = "text"> <br>
+        </div>
+
+        <div class = "q">
+        <label class="bold"> What is your personality type?</label> <br>
+          <label> Extrovert </label>
+            <input type = "radio"> <br>
+          <label> Introvert </label>
+            <input type = "radio"> <br>
+          <label> Please elaborate </label>
+            <input type = "text"> <br>
+        </div>
+
+        <div class = "q">
+        <label class= "bold"> Anything else we should know about you? </label> <br>
+          <input type = "text">
+        </div>
+
+      <p class= "paragraph"> <i> Please double-check everything before submission </i></p>
+      
+    <div class="button"> 
+    <button onclick="functionMentor()">Submit</button>
+      <p id="mentormessage" class = "paragraph"></p>
+    </div>
+    </div>
+  </body>
+</html>
